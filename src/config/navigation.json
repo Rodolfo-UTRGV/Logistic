@@ -1,0 +1,46 @@
+{
+    "navigation": [
+        {
+            "name": "Login",
+            "state": "acp.login",
+            "url": "acp.login",
+            "color": "blue"
+        },
+        {
+            "name": "Register",
+            "state": "acp.register",
+            "url": "acp.register",
+            "color": "blue"
+        },
+        {
+            "name": "Home",
+            "state": "home",
+            "url": "home",
+            "color": "blue"
+        },
+        {
+            "name": "Services",
+            "state": "services",
+            "url": "services",
+            "color": "blue"
+        },
+        {
+            "name": "About Us",
+            "state": "about",
+            "url": "about",
+            "color": "blue"
+        },
+        {
+            "name": "Prices",
+            "state": "pricing",
+            "url": "pricing",
+            "color": "blue"
+        },
+        {
+            "name": "Contact Us",
+            "state": "contacts",
+            "url": "contacts",
+            "color": "blue"
+        }
+    ]
+}

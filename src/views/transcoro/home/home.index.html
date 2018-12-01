@@ -1,0 +1,95 @@
+<!-- BODY -->
+<section id="home" class="text-center">
+    <div class="templatemo_headerimage">
+        <div class="flexslider">
+            <ul class="slides">
+                <li ng-repeat="x in [].constructor(2) track by $index">
+                    <img src="assets/images/slider/{{$index}}.jpg" alt="Slide {{$index}}">
+                    <div class="slider-caption">
+                        <div class="templatemo_homewrapper">
+                            <h1 class="wow fadeInDown" data-wow-delay="2000" translate="generic.texts.slideTitle-{{$index}}"></h1>
+                            <h2 class="wow fadeInDown" data-wow-delay="2000">
+                                <span translate="generic.texts.slideMessage-{{$index}}"></span>
+                            </h2>
+                            <a ui-sref="service" class="smoothScroll btn btn-default wow fadeInDown" data-wow-delay="5000" translate="generic.texts.slideButton-{{$index}}"></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="media">
+                    <div class="media-object media-left wow fadeIn" data-wow-delay="0.1s">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                    <div class="media-body wow fadeIn">
+                        <h3 class="media-heading">Balanced Pricing</h3>
+                        <p> Our prices will adjust to anyone and anything, we have a variety of services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="media">
+                    <div class="media-object media-left wow fadeIn" data-wow-delay="0.3s">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="media-body wow fadeIn">
+                        <h3 class="media-heading">Best Units</h3>
+                        <p>Our units will provide the best service possible and will deliver your cargo safetly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="media">
+                    <div class="media-object media-left wow fadeIn" data-wow-delay="0.6s">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="media-body wow fadeIn" data-wow-delay="0.3s">
+                        <h3 class="media-heading">Your Agenda</h3>
+                        <p>We take your time seriously, our job is to get your shipment on time always, no matter what, no matter where.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="media">
+                    <div class="media-object media-left wow fadeIn" data-wow-delay="0.9s">
+                        <i class="fa fa-line-chart"></i>
+                    </div>
+                    <div class="media-body wow fadeIn" data-wow-delay="0.6s">
+                        <h3 class="media-heading">Logistics Experts</h3>
+                        <p>Our job is done at its best, we always ensure the best transport possible with the most reliable conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="media">
+                    <div class="media-object media-left wow fadeIn" data-wow-delay="0.4s">
+                        <i class="fa fa-comments-o"></i>
+                    </div>
+                    <div class="media-body wow fadeIn" data-wow-delay="0.3s">
+                        <h3 class="media-heading">Quick Support</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euism.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="media">
+                    <div class="media-object media-left wow fadeIn" data-wow-delay="0.8s">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="media-body wow fadeIn" data-wow-delay="0.6s">
+                        <h3 class="media-heading">Up to Date</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euism.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /BODY -->

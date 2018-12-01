@@ -1,0 +1,56 @@
+{
+    "acp":
+    {
+        "abstract": true,
+        "name": "acp",
+        "url": "/acp",
+        "ACP": true,
+        "template": "<div ui-view></div>"
+    },
+
+    "acp.login":
+    {
+        "name": "acp.login",
+        "url": "/login",
+        "ACP": true,
+        "templateUrl": "views/acp/guest/acp.index.html"
+    },
+
+    "acp.register":
+    {
+        "name": "acp.register",
+        "url": "/register",
+        "ACP": true,
+        "templateUrl": "views/acp/guest/acp.register.html"
+    },
+
+    "home":
+    {
+        "name": "home",
+        "url": "/home",
+        "templateUrl": "views/transcoro/home/home.index.html",
+        "controller": "HomeController"
+    },
+
+    "services":
+    {
+        "name": "services",
+        "url": "/services",
+        "templateUrl": "views/transcoro/services/services.index.html"
+    },
+    "about":{
+        "name": "about",
+        "url": "/about",
+        "templateUrl": "views/transcoro/about/about.index.html"
+    },
+    "pricing":{
+        "name": "pricing",
+        "url": "/pricing",
+        "templateUrl": "views/transcoro/pricing/pricing.index.html"
+    },
+    "contacts": {
+        "name": "contacts",
+        "url": "/contacts",
+        "templateUrl": "views/transcoro/contacts/contacts.index.html"
+    }
+}

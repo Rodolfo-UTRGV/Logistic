@@ -1,0 +1,41 @@
+<div layout="row" layout-xs="column">
+    <div layout="column" flex="50">
+        <md-card>
+            <md-card-content>
+                <form name="registerForm" ng-submit="register()">
+                    <md-input-container>
+                        <label translate="generic.forms.username"></label>
+                        <input id="username" type="text" name="username" ng-model="registerFormDetails.username" autofocus required />
+                        <div ng-messages="registerForm.username.$error" md-auto-hide="false">
+                            <div ng-messages-include="views/messages.html"></div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container>
+                        <label translate="generic.forms.email"></label>
+                        <input id="email" type="text" name="email" ng-model="registerFormDetails.email" required />
+                        <div ng-messages="registerForm.email.$error" md-auto-hide="false">
+                            <div ng-messages-include="views/messages.html"></div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container>
+                        <label translate="generic.forms.password"></label>
+                        <input id="password" type="password" name="password" ng-model="registerFormDetails.password" required />
+                        <div ng-messages="registerForm.password.$error" md-auto-hide="false">
+                            <div ng-messages-include="views/messages.html"></div>
+                        </div>
+                    </md-input-container>
+                    <md-input-container>
+                        <label translate="generic.forms.passwordConfirm"></label>
+                        <input id="passwordConfirm" type="password" name="passwordConfirm" ng-model="registerFormDetails.passwordConfirm" required />
+                        <div ng-messages="registerForm.passwordConfirm.$error" md-auto-hide="false">
+                            <div ng-messages-include="views/messages.html"></div>
+                        </div>
+                    </md-input-container>
+                    <div layout="row">
+                        <md-button type="submit" ng-disabled="(registerForm.$invalid) || (registerFormDetails.password != registerFormDetails.passwordConfirm)" translate="generic.buttons.register"></md-button>
+                    </div>
+                </form>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>

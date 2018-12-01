@@ -1,0 +1,43 @@
+{
+    "IP": "127.0.0.1",
+    "portHttp": 80,
+    "portHttps": 443,
+    "enableHttps": false,
+    "session": {
+        "key": "testapi",
+        "secret": "LDDWK8Mo4AmDYBn",
+        "resave": false,
+        "saveUninitialized": false,
+        "store": {
+            "tableName": "api_sessions",
+            "sessionId": "session",
+            "expires": "expires",
+            "data": "data"
+        }
+    },
+    "database": {
+        "client": "mysql",
+        "connection": {
+            "host": "localhost",
+            "port": "3306",
+            "user": "root",
+            "password": "Azure",
+            "database": "transcoro"
+        }
+    },
+    "webSettings": {
+        "api": "http://localhost/api",
+        "developerWEB": "localhost",
+        "siteName": "Transcoro",
+        "siteLongName": "TestAPI S.A. de C.V.",
+        "siteURL": "localhost",
+        "maintenance": {
+            "enabled": false,
+            "allowedIPs": [""],
+            "minRank": 8
+        }
+    },
+    "Facebook": {
+
+    }
+}

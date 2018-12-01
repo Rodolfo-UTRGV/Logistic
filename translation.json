@@ -1,0 +1,102 @@
+{
+    "generic": {
+        "buttons": {
+            "cancel": "Cancel",
+            "close": "Close",
+            "login": "Login",
+            "logout": "Logout",
+            "ok": "Okay",
+            "register": "Register",
+            "save": "Save",
+            "seeAll": "See All",
+            "post": "Post"
+        },
+        "tables": {
+            "created": "Created",
+            "email": "Email",
+            "name": "Name",
+            "owner": "Owner",
+            "users": "Users",
+            "likes": "Likes",
+            "members": "Members",
+            "of": "Of",
+            "page": "Page",
+            "rowsPerPage": "Rows per Page",
+            "username": "Username",
+            "noResults": "No Results",
+            "rank": "Rank"
+        },
+        "forms": {
+            "username": "Username",
+            "password": "Password",
+            "passwordConfirm": "Confirm Password",
+            "passwordNew": "New Password",
+            "passwordCurrent": "Current Password",
+            "email": "Email",
+            "emailConfirm": "Confirm Email",
+            "emailNew": "New Email",
+            "banReason": "Reason",
+            "banExpires": "Expires",
+            "search": "Search",
+            "comment": "Comment"
+        },
+        "headers": {
+            "login": "Login",
+            "register": "Register",
+            "general": "General",
+            "email": "Email",
+            "password": "Password",
+            "userDetails": "User Details",
+            "maintenance": "Maintenance Break",
+            "accountSettings": "Account Settings",
+            "news": "News",
+            "newsComments": "News Comments",
+            "users": "Users",
+            "userInfo": "User Info",
+            "notFound": "Not Found"
+        },
+        "messages": {
+            "inputMaxLength": "This field has reached the maximum length",
+            "inputRequired": "This field is required",
+            "invalidCaptcha": "The captcha was incorrect",
+            "invalidEmail": "Please enter a valid email address",
+            "invalidEmailAvailability": "That email address is already registered",
+            "invalidLogin": "Invalid login",
+            "invalidPassword": "Invalid Password",
+            "invalidPasswordMatch": "Those passwords don't match",
+            "invalidUsername": "Invalid Username",
+            "invalidUsernameAvailability": "That username is not available",
+            "maintenance": "Please excuse us while we work on some changes & improvements to improve your experience, check back soon!",
+            "sessionExpired": "Your session has expired, please relogin",
+            "somethingWrong": "Something went wrong, please try again.",
+            "updatedEmail": "Your email address has been updated!",
+            "updatedPassword": "Your password has been updated!",
+            "updatedUser": "Your account has been updated",
+            "userBanned": "You have been banned from {{siteName}}",
+            "userDisabled": "Your account has been disabled",
+            "userLogout": "Are you sure you would like to logout?",
+            "noUsers": "There are no users to display!",
+            "noComments": "There are no comments to display!",
+            "noNews": "There are no articles to display!",
+            "commentPrompt": "Please enter your comment below",
+            "profileNotFound": "Oh no! That profile couldn't be found. Check the URL and try your request again.",
+            "articleNotFound": "Oh no! That article couldn't be found. Check the URL and try your request again."
+        },
+        "misc": {
+            "day": "day",
+            "days": "days",
+            "hour": "hour",
+            "hours": "hours",
+            "min": "min",
+            "mins": "mins"
+        },
+        "texts": {
+            "slideTitle-0": "We are logistics experts",
+            "slideMessage-0": "You need it, we have it",
+            "slideButton-0": "Our Work",
+            "slideTitle-1": "Mexico & United States",
+            "slideMessage-1": "From small to big cargos, we will help you transport",
+            "slideButton-1": "See About Us"
+        }
+    }
+  }

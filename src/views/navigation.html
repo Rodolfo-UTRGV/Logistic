@@ -1,0 +1,7 @@
+<div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right" ng-if="navigationList.length > 0">
+        <li ng-repeat="item in navigationList" ng-class="{'active': $root.state.includes(item.state.name) || $root.state.current.displayAsChild == item.state.name}" ng-hide="item.state.ACP == true">
+            <a class="smoothScroll" ui-sref="{{(item.url == null) ? item.state.name : item.url}}" ng-bind="item.name"></a>
+        </li>
+    </ul>
+</div>
